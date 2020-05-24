@@ -2,8 +2,6 @@
 
 To unlock all weapons in WA, you can either play and win all missions - or - you can use this Node.js script to unlock them all.
 
-![Wormage](wormage.png)
-
 ## What
 
 This script will modify the `WG.WGT` file (`Worms Armageddon\User\Teams\WG.WGT`). It will change 4 bytes at address 0x00000006 from `00 00 00 00` -> `1F 1F 07 01`
